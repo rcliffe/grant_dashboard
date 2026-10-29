@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/grant/submitted</path>
+    <page_callback>CRM_GrantDashboard_Page_SubmittedGrants</page_callback>
+    <title>Submitted Grants</title>
+    <access_arguments>access CiviGrant</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/grant/approved</path>
+    <page_callback>CRM_GrantDashboard_Page_ApprovedGrants</page_callback>
+    <title>Approved Grants</title>
+    <access_arguments>access CiviGrant</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/admin/setting/grant_dashboard</path>
+    <page_callback>CRM_Admin_Form_Generic</page_callback>
+    <title>Grant Decision Settings</title>
+    <access_arguments>administer CiviCRM</access_arguments>
+  </item>
+</menu>
